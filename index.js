@@ -14,7 +14,4 @@ const test = async (desc, handler) => {
 
 test.stack = []
 
-const it = test
-const describe = test
-
-module.exports = { it, describe }
+module.exports = test
